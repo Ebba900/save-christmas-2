@@ -14,4 +14,10 @@ export function randomArray(len, n) {
 
 function randomInt(n) {
     return Math.floor(Math.random() * (n + 1))
+} 
+
+export function Swap (arr, i, k){
+    let x = arr [i] 
+    arr[i] = arr [k] 
+    arr [k] = x
 }
